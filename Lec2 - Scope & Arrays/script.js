@@ -145,18 +145,18 @@ console.log(result)
 
 
 function nCrOfAnArray(arr) {
-const r = 4;
-const ans = 0;
-for (let number of arr) ‹
-const ncr = nCr (number,
-r) ;
-ans- push(ncr);
-}
-return ans;
-function printArr(arr) {
-console. log (arr);
+    const r = 4;
+    const ans = 0;
+    for (let number of arr) {
+        const ncr = nCr(number, r);
+        ans - push(ncr);
+    }
+    return ans;
+    function printArr(arr) {
+        console.log(arr);
+    }
 }
 
-const numbers = new Array (4, 10, 6, 8);
-printArr(nCrOfAnArray(numbers)); // equivalent
+    const numbers = new Array(4, 10, 6, 8);
+    printArr(nCrOfAnArray(numbers)); // equivalent
 
